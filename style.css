@@ -1,0 +1,324 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+.a{
+font-size: 20px;
+background: #660066;
+color:#e60073;
+padding: 10 px
+}
+.a:hover{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.b{
+font-size: 20px;
+background:#ff1a1a;
+color:#000000;
+padding: 10 px;
+}
+.b:hover{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.c{
+font-size: 20px;
+background:#3333ff;
+color:#000000;
+padding: 0 px;
+}
+.c:hover{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.d{
+font-size: 20px;
+background:#000000;
+color:#ff1a1a;
+padding: 0 px;
+}
+.d:hover{
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.e{
+  font-size: 20px;
+  color:#00264d;
+  background: #ff751a;
+  padding: 5px 5px;
+  
+}
+.e:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.f{
+font-size: 20px;
+background: #660066;
+color:#e60073;
+padding: 5 px;
+border-radius: 8px;
+}
+.f:hover{
+  font-size: 22px;
+background: #e60073;
+color:#660066 ;
+  
+  
+}
+
+
+.g{
+  font-size: 20px;
+  background:#ff1a1a;
+  color:#000000;
+  padding: 5 px;
+  border-radius: 8px;
+  
+}
+.g:hover{
+  font-size: 22px;
+  background: #000000;
+  color:#ff1a1a;
+}
+
+.h{
+  font-size: 20px;
+  background:#3333ff;
+  color:#000000;
+  padding: 0 px;
+  border-radius: 8px;
+  
+}
+.h:hover{
+  font-size: 22px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  background:#000000;
+  color:#3333ff;
+}
+.i{
+  font-size: 20px;
+  color:#00264d;
+  background: #ff751a;
+  padding: 5px;
+
+}
+.i:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color:#ff751a;
+  background: #00264d;
+}
+
+.j{
+  font-size: 20px;
+  background:#000000;
+  color:#ff1a1a;
+  padding: 0 px;
+  border-radius: 12px;
+  
+}
+.j:hover{
+  color:#000000;
+  background:#ff1a1a;
+}
+.k{
+  font-size: 20px;
+  color:#00264d;
+  background: #ff751a;
+  padding: 16px 8px;
+  border-radius: 50%;
+}
+.k:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color:#ff751a;
+  background: #00264d;
+}
+.k:hover{
+  animation-name: spinK;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes spinK {
+    from {
+        transform:rotate(0deg);
+      background-color: #ff751a;
+    }
+    to {
+        transform:rotate(1000deg);
+      background-color: #00264d;
+    }
+}
+
+
+.l{
+  font-size: 20px;
+  background:#000000;
+  color:#000000;
+  padding: 0 px;
+  border-radius: 12px;
+  
+}
+.l:hover{
+  color:#ff1a1a;
+}
+
+.m{
+font-size: 20px;
+background: #660066;
+color:#e60073;
+padding: 16px 8px;
+border-radius: 50%;
+}
+.m:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.m:hover{
+  color:#660066;
+  animation-name: spinM;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+@keyframes spinM {
+    from {
+        transform:rotate(0deg);
+      background-color: #660066;
+    }
+    to {
+        transform:rotate(1000deg);
+      background-color: #e60073;
+    }
+}
+
+
+
+
+.n{
+  font-size: 20px;
+  background:#ff1a1a;
+  color:#000000;
+  padding: 16px 8px;
+  border-radius: 50%;
+  
+}
+.n:hover{
+  color:#ff1a1a;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.n:hover{
+  animation-name: spinN;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+@keyframes spinN {
+    from {
+        transform:rotate(0deg);
+      background-color: #ff1a1a;
+    }
+    to {
+        transform:rotate(1000deg);
+      background-color: #000000;
+    }
+}
+
+.o{
+  font-size: 20px;
+  background:#3333ff;
+  color:#000000;
+  padding: 16px 8px;
+  border-radius: 50%;
+  
+  
+}
+.o:hover{
+  color:#3333ff;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.o:hover{
+  animation-name: spinO;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+}
+
+
+@keyframes spinO {
+    from {
+        transform:rotate(0deg);
+      background-color: #3333ff;
+    }
+    to {
+        transform:rotate(1000deg);
+      background-color: #000000;
+    }
+}
+
+
+
+.p{
+  font-size: 20px;
+  background:#000000;
+  color:#ff1a1a;
+  padding: 16px 8px;
+  border-radius: 50%;
+  
+  
+}
+.p:hover{
+  color:#000000;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.p:hover{
+  animation-name: spinP;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  
+}
+
+@keyframes spinP {
+    from {
+        transform:rotate(0deg);
+      background-color: #000000;
+    }
+    to {
+        transform:rotate(1000deg);
+      background-color: #ff1a1a;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* THIS IS FOR THE flex box */
+/*  **************************************** */
+
+
+
